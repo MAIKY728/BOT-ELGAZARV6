@@ -7027,7 +7027,7 @@ ElgazarBot.sendMessage(from, { text: `*${command}*\n\nالاسم : ${q}\nالا�
       case 'مكروه':
       case 'مؤدب':
       case 'نجس':
-      case 'وصخ':
+      case 'شرموط':
       case 'ورع':
       case 'شاذ':
       case 'علق':
@@ -7209,7 +7209,9 @@ ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
             break
             
 case 'مايكي':
+
 if (!text) return m.reply(`هلا يحب`)
+
 break
                         
 case 'quotes':
